@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr" x-data="{menuIsOpen:false}" :class="{noscroll:menuIsOpen,}">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,74 +10,33 @@
     <link rel="stylesheet" href="src/css/style.css" />
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.js" defer></script>
 </head>
+
 <body>
 
     <header class="">
         <div aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen">
             <img src="../public/icons/menu.svg" alt="">
         </div>
-        </header>
 
         <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="">
             <div class="titre_menu">MENU</div>
-            <div class="croix"><a href="accueil.html"><img src="../public/icons/Croix.svg" alt=""></a></div>
+            <div class="croix"><a href="odod.html"><img src="../public/icons/Croix.svg" alt=""></a></div>
             <ul>
                 <li class="elements__menu elements_menu"><a class="" href="replique.html">Une réplique iconique</a></li>
                 <li class="elements__menu elements_menu"><a class="" href="film.html">Un film : Saw</a></li>
                 <li class="elements__menu elements_menu"><a class="" href="real.html">James Wan, un réalisateur</a></li>
                 <li class="elements__menu elements_menu"><a class="" href="livre.html">Un livre psychologique</a></li>
-                <li class="elements__menu elements_menu"><a class="" href="musique.html">Une musique, par 21 Savage</a></li>
+                <li class="elements__menu elements_menu"><a class="" href="musique.html">Une musique, par 21 Savage</a>
+                </li>
             </ul>
 
             <ul>
                 <li class="elements__menu elements_menu"><a class="" href="frise.html">Une réplique iconique</a></li>
                 <li class="elements__menu elements_menu"><a class="" href="galerie.html">Un film : Saw</a></li>
-                <li class="elements__menu elements_menu"><a class="" href="apropos.html">James Wan, un réalisateur</a></li>
-                
+                <li class="elements__menu elements_menu"><a class="" href="apropos.html">James Wan, un réalisateur</a>
+                </li>
+
             </ul>
         </nav>
-
-        
-
-        <a class="" href="accueil.html">
-            <img class="" src="../public/icons/logo.svg" alt="Logo Playing The Saw" />
-        </a>
-
-        <p class="">Playing The Saw</p>
-        <h1 class="">
-            “Nous allons jouer à un jeu”
-        </h1>
-
-    
-
-        <h3 class="">
-            Bienvenue dans l'obscurité captivante de 'Saw' : Explorez le film, la réplique, le réalisateur, un livre et la musique
-            qui l'accompagne.
-        </h3>
-
-        <section>
-            <h3 class="">
-                "Nous allons jouer à un jeu" : L'Énigme Mortelle de Jigsaw
-            </h3>
-
-            <img src="../public/img/replique.webp" alt="">
-            <h4>
-                Cette phrase iconique a marqué le début de l'horreur psychologique et du sous-genre du "torture
-                porn". Mais qu'est-ce qui rend cette réplique si mémorable et effrayante ?
-            </h4>
-
-            <button>Lire l'article</button>
-        </section>
-
-        
-
-        <h4></h4>
-        
-
-
-
-        
     </header>
-    
 </body>
-</html>
