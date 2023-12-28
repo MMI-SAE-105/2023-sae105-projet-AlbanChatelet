@@ -10,12 +10,14 @@
     <link rel="stylesheet" href="../src/css/import.css" />
     <link rel="stylesheet" href="../src/css/header.css" />
     <link rel="stylesheet" href="../src/css/footer.css" />
+    <link rel="stylesheet" href="../src/css/variable.css" />
+    <link rel="stylesheet" href="../src/css/btn.css" />
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.js" defer></script>
 </head>
 <body>
 
-    <header class="">
-        <div aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen">
+    <header class="header header--home">
+        <div class="menu_position" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen">
             <img src="../public/icons/menu.svg" alt="">
         </div>
         
@@ -41,141 +43,176 @@
 
         
 
-        <a class="" href="accueil.html">
+        <a class="logo_position" href="accueil.html">
             <img class="" src="../public/icons/logo.svg" alt="Logo Playing The Saw" />
         </a>
 
-        <p class="title">Playing The Saw</p>
+        <p class="title title_position">Playing The Saw</p>
 
-        <img src="../public/img/home_cover.webp" alt="">
+        <img class="position_cover_home" src="../public/img/home_cover.webp" alt="">
 
-        </header>
+        
 
-        <h1 class="">
+        
+    </header>
+
+    <div class="background collage">
+        <h1 class="h1 container">
             “Nous allons jouer à un jeu”
         </h1>
 
+        <div class="ligne_blanche"></div>
+        
     
 
-        <h3 class="">
+        <h3 class="introduction">
             Bienvenue dans l'obscurité captivante de 'Saw' : Explorez le film, la réplique, le réalisateur, un livre et la musique
             qui l'accompagne.
         </h3>
 
-        <section>
-            <h3 class="">
+        <div class="ligne_blanche"></div>
+        <div class="espace"></div>
+
+        <section class="section">
+            <h3 class="h3">
                 "Nous allons jouer à un jeu" : L'Énigme Mortelle de Jigsaw
             </h3>
-
-            <img src="../public/img/replique.webp" alt="">
-            <h4>
+            <div class="container">
+                <img src="../public/img/replique.webp" alt="">
+            </div>
+            <h4 class="h4">
                 Cette phrase iconique a marqué le début de l'horreur psychologique et du sous-genre du "torture
                 porn". Mais qu'est-ce qui rend cette réplique si mémorable et effrayante ?
             </h4>
-
-            <a class="" href="replique.html">
-                <button>Lire l'article</button>
+            <a class="lire_article" href="replique.html">
+                <img src="../public/icons/lire_article.svg" alt="">
+                
             </a>
+            
         </section>
-        <section>
-            <h3 class="">
+
+        <br><br><br>
+            
+        
+        <section class="section">
+            <h3 class="h3">
                 Saw : L'Horreur Psychologique qui Hante nos Cauchemars
             </h3>
-        
-            <img src="../public/img/home_film.webp" alt="">
-            <h4>
+            <div class="header">
+            <div class="container_gauche">
+                <img src="../public/img/home_film.webp" alt="">
+            </div>
+            
+            <h4 class="h4_droite">
                 Sorti en 2004 et écrit par Leigh Whannel, comment l’intrigue de « Saw » a-t-elle laissé une empreinte
                 indélébile dans l'univers du cinéma d'horreur et de la psychologie ?
-            </h4>
+            </h4></div>
+            
         
-            <a class="" href="film.html">
-                <button>Lire l'article</button>
+            <a class="lire_article cadrage" href="film.html">
+                <img src="../public/icons/lire_article.svg" alt="">
             </a>
         </section>
-        <section>
-            <h3 class="">
+
+        <br><br><br>
+        <section class="section">
+            <h3 class="h3">
                 Qui est James Wan, le maestro de l’horreur moderne ?
             </h3>
-        
-            <img src="../public/img/home_james_wan.webp" alt="">
-            <h4>
+            <div class="container"><img src="../public/img/home_james_wan.webp" alt=""></div>
+            
+            <h4 class="h4">
                 D’insidious à Conuring, decouvrez l’histoire de James Wan, qui a su redéfinir le genre du cinéma
                 d’horreur en marquant toute une génération de cinéphiles passionnés de frissons.
             </h4>
         
-            <a class="" href="real.html">
-                <button>Lire l'article</button>
+            <a class="lire_article" href="real.html">
+                <img src="../public/icons/lire_article.svg" alt="">
             </a>
         </section>
-        <section>
-            <h3 class="">
+        <br><br><br>
+
+        <section class="section">
+            <h3 class="h3">
                 "The Cutting Edge: Philosophy of the SAW Films" : Décryptage Philosophique de Saw
             </h3>
-        
-            <img src="../public/img/home_livre.webp" alt="">
-            <h4>
+            <div class="header">
+                <div class="container_gauche">
+                    <img src="../public/img/home_livre.webp" alt="">
+                </div>
+            <h4 class="h4_droite">
                 En 2013, l'auteur C.J. Patton a plongé profondément dans l'univers tordu et complexe de la franchise
                 "Saw".
                 Comment ce livre est-il devenu un incontournable du genre ?
-            </h4>
+            </h4></div>
+            
         
-            <a class="" href="livre.html">
-                <button>Lire l'article</button>
+            <a class="lire_article cadrage" href="livre.html">
+                <img src="../public/icons/lire_article.svg" alt="">
             </a>
         </section>
-        <section>
-            <h3 class="">
+
+        <br><br><br>
+        <section class="section">
+            <h3 class="h3">
                 "Spiral" de 21 Savage : Un Hymne Sombre pour le Retour de "Saw" en 2021
             </h3>
-        
-            <img src="../public/img/home_music.webp" alt="">
-            <h4>
+            <div class="container"><img src="../public/img/home_music.webp" alt=""></div>
+            
+            <h4 class="h4">
                 En 2021, 21 Savage nous avait glacé le sang à la sortie du titre Spiral pour la bande originale du
                 neuvième volet de la saga du même nom « Spirale : L’Héritage de Saw »
             </h4>
         
-            <a class="" href="musique.html">
-                <button>Lire l'article</button>
+            <a class="lire_article" href="musique.html">
+                <img src="../public/icons/lire_article.svg" alt="">
             </a>
         </section>
-
-
+        <br><br><br>
+    </div>
 
         
-    <footer class="">
+    <footer class="fond_footer collage">
     
-        <section class="">
-            <a class="" href="galerie.html">
+        <section class="decalage">
+            <a class="foot" href="galerie.html">
                 <h2 class="">Galerie</h2>
             </a>
     
-            <a class="" href="contact.html">
+            <a class="foot" href="contact.html">
                 <h2 class="">Contact</h2>
             </a>
 
-            <a class="" href="autreprojets.html">
+            <a class="foot" href="autreprojets.html">
                 <h2 class="">Autres projets</h2>
             </a>
 
-            <a class="" href="apropos.html">
+            <a class="foot" href="apropos.html">
                 <h2 class="">A propos</h2>
             </a>
 
         </section>
+        <br>
+        <div class="ligne_blanche"></div>
+        <br>
 
         <section>
-            <img src="../public/icon/logo_blanc.svg" alt="">
-            <h3>Alban Chatelet - Groupe C1</h3>
-            <h3>chateletalban20@gmail.com</h3>
+            
+            <h3 class="mailto">Alban Chatelet - Groupe C1</h3>
+            <h3 class="mailto">chateletalban20@gmail.com</h3>
         </section>
-        
+        <br>
+        <div class="ligne_blanche"></div>
         <div>
-            <h4 class="">Ce site est un projet réalisé dans le cadre d’un exercice pédagogique au département MMI
+            <h4 class="mentions decalage">Ce site est un projet réalisé dans le cadre d’un exercice pédagogique au département MMI
                 Montbéliard</h4>
             </p>
-            <p class="">&copy; PlayingTheSaw</p>
-            <div class=""><img src="../public/img/logo_mmi.webp" alt=""></div>
+            
+            <div class="mmi"><img src="../public/img/logo_mmi.webp" alt=""></div>
+            <br><br>
+            <p class="mentions decalage">&copy; PlayingTheSaw</p>
         </div>
+        <br><br><br>
     </footer>
     
 </body>

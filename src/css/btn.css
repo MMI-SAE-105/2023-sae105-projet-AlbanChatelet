@@ -1,0 +1,17 @@
+.lire_article {
+    
+    flex-shrink: 0;
+    margin-left: 150px;
+
+    position: absolute;
+    left: 0;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    margin-top: -55px;
+    
+}
+
+.cadrage {
+    margin-top: -10%;
+}

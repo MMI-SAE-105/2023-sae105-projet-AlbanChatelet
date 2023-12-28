@@ -1,0 +1,52 @@
+.fond_footer {
+    background: linear-gradient(to bottom, var(--red), var(--black));
+}
+
+.foot {
+    
+    color: #F8F8F8;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 110%;
+    text-decoration: none;
+    
+}
+
+.decalage {
+    margin-left: 5%;
+}
+
+.mailto {
+    color: #F8F8F8;
+    
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    margin-left: 22.5%;
+}
+
+.mentions {
+    color: var(--Quartz, #F8F8F8);
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    width: 230px;
+    display:flex;
+    flex-shrink: 0;
+    height:30px;
+}
+
+.mmi {
+    display:flex;
+    margin-left: 275px;
+    margin-top: -50px;
+    width: 72px;
+    height: 52px;
+}
