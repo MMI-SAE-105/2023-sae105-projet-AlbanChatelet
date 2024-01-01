@@ -12,25 +12,35 @@
         
 }
 
+.croix {
+    margin-top: -210px;
+    margin-left: 275px;
+}
+
 .menu_position {
     margin-top: 49.6px;
     margin-left: 305px;
-    cursor: pointer;
+    
 }
 
 .logo_position {
     margin-top: 30px;
-    margin-left: -320px;
+    margin-left: -325px;
 }
 
 .title_position {
-    margin-left: 18px;
+    
+    margin-left: -240px;
 }
 
 .header {
     display: flex;
     
 
+}
+
+.header_padding {
+    padding: 100px var(--space3x);
 }
 
 .header--home {
@@ -44,9 +54,11 @@
 }
 
 .position_cover_home{
+    
     margin-top:130px;
-    margin-left:-260px;
+    margin-left:-275px;
     padding:10px;
+    width:335px;
 }
 
 

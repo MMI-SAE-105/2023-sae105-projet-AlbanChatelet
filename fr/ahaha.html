@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen:false}" :class="{noscroll:menuIsOpen,}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playing The Saw</title>
+
+    <link rel="icon" href="../public/icons/logo.ico">
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <link rel="stylesheet" href="../src/css/import.css" />
+    <link rel="stylesheet" href="../src/css/header.css" />
+    <link rel="stylesheet" href="../src/css/footer.css" />
+    <link rel="stylesheet" href="../src/css/variable.css" />
+    <link rel="stylesheet" href="../src/css/menu.css" />
+    <link rel="stylesheet" href="../src/css/btn.css" />
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.js" defer></script>
+</head>
+
+<body>
+
+    <header class="header header--home">
+        <div aria-controls="mainNav" @click="menuIsOpen = !menuIsOpen" class="menu_position">
+            <img src="../public/icons/menu.svg" alt="">
+        </div>
+       
+
+        <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
+            <div class="titre_menu">MENU</div>
+            <div class="croix"><a href="accueil.html"><img src="../public/icons/Croix.svg" alt=""></a></div>
+            <ul>
+                <li class="elements__menu elements_menu"><a class="" href="replique.html">Une réplique iconique</a></li>
+                <li class="elements__menu elements_menu"><a class="" href="film.html">Un film : Saw</a></li>
+                <li class="elements__menu elements_menu"><a class="" href="real.html">James Wan, un réalisateur</a></li>
+                <li class="elements__menu elements_menu"><a class="" href="livre.html">Un livre psychologique</a></li>
+                <li class="elements__menu elements_menu"><a class="" href="musique.html">Une musique, par 21 Savage</a>
+                </li>
+            </ul>
+
+            <ul>
+                <li class="elements__menu elements_menu"><a class="" href="frise.html">Livrés associés</a></li>
+                <li class="elements__menu elements_menu"><a class="" href="galerie.html">Galerie de films</a></li>
+                <li class="elements__menu elements_menu"><a class="" href="apropos.html">A propos</a></li>
+
+            </ul>
+        </nav>
+
+        <a class="" href="accueil.html">
+            <img class="" src="../public/icons/logo.svg" alt="Logo Playing The Saw" />
+        </a>
+
+        <p class="title">Playing The Saw</p>
+
+        <img class="" src="../public/img/home_cover.webp" alt="">
+
+    </header>
+
+</body>
+
+</html>

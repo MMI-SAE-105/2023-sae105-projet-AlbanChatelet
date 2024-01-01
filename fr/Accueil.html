@@ -11,40 +11,88 @@
     <link rel="stylesheet" href="../src/css/header.css" />
     <link rel="stylesheet" href="../src/css/footer.css" />
     <link rel="stylesheet" href="../src/css/variable.css" />
+    <link rel="stylesheet" href="../src/css/menu.css" />
     <link rel="stylesheet" href="../src/css/btn.css" />
+    <link rel="stylesheet" href="../src/css/articles.css" />
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.js" defer></script>
 </head>
-<body>
+<header class="header header--home">
 
-    <header class="header header--home">
-        <div class="menu_position" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen">
-            <img src="../public/icons/menu.svg" alt="">
+        <div aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" x-transition.duration.800ms class="header_menuBtn menu_position">
+            <img src="../public/icons/Menu.svg" alt="">
         </div>
         
+        
+        <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu back_menu">
+            <a class="" href="accueil.html">
+                <img class="logo_position logo_menu" src="../public/icons/logo.svg" alt="Logo Playing The Saw" />
+            </a>
+            <div aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" x-transition.duration.800ms class="position_croix_rouge">
+                <img src="../public/icons/Croix_rouge.svg" alt="">
+            </div>
+            <p class="title_menu position_titre">MENU</p>
 
-        <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="">
-            <div class="titre_menu">MENU</div>
-            <div class="croix"><a href="accueil.html"><img src="../public/icons/Croix.svg" alt=""></a></div>
-            <ul>
-                <li class="elements__menu elements_menu"><a class="" href="replique.html">Une réplique iconique</a></li>
-                <li class="elements__menu elements_menu"><a class="" href="film.html">Un film : Saw</a></li>
-                <li class="elements__menu elements_menu"><a class="" href="real.html">James Wan, un réalisateur</a></li>
-                <li class="elements__menu elements_menu"><a class="" href="livre.html">Un livre psychologique</a></li>
-                <li class="elements__menu elements_menu"><a class="" href="musique.html">Une musique, par 21 Savage</a></li>
-            </ul>
+            <p class="elements_titre">ARTICLES</p>
+            <ul class="decalage_menu">
+                <li class="ligne_menu">
+                    <div class="espace"></div>
+                    <a class="elements" href="replique.html">Une réplique iconique</a></li>
+                <a class="fleche" href="replique.html"><img src="../public/icons/arrow.svg" alt=""></a>
+                <div class="espace"></div>
 
-            <ul>
-                <li class="elements__menu elements_menu"><a class="" href="frise.html">Une réplique iconique</a></li>
-                <li class="elements__menu elements_menu"><a class="" href="galerie.html">Un film : Saw</a></li>
-                <li class="elements__menu elements_menu"><a class="" href="apropos.html">James Wan, un réalisateur</a></li>
+                <li class="ligne_menu">
+                    <div class="espace"></div>
+                    <a class="elements" href="film.html">Un film : Saw</a></li>
+                <a class="fleche" href="film.html"><img src="../public/icons/arrow.svg" alt=""></a>
+                <div class="espace"></div>
+
+                <li class="ligne_menu">
+                    <div class="espace"></div>
+                    <a class="elements" href="real.html">James Wan, un réalisateur</a></li>
+                <a class="fleche" href="real.html"><img src="../public/icons/arrow.svg" alt=""></a>
+                <div class="espace"></div>
+
+                <li class="ligne_menu">
+                    <div class="espace"></div>
+                    <a class="elements" href="livre.html">Un livre psychologique</a></li>
+                <a class="fleche" href="livre.html"><img src="../public/icons/arrow.svg" alt=""></a>
+                <div class="espace"></div>
+                <li class="ligne_menu">
+                    <div class="espace"></div>
+                    <a class="elements" href="musique.html">Une musique, par 21 Savage</a></li>
+                <a class="fleche" href="musique.html"><img src="../public/icons/arrow.svg" alt=""></a>
+                
                 
             </ul>
+            <div class="espace2"></div>
+            <p class="elements_titre_2">PLUS DE CONTENUS</p>
+            
+            <ul>
+                <li class="ligne_menu">
+                    <div class="espace"></div>
+                    <a class="elements" href="frise.html">Livrés associés</a></li>
+                <a class="fleche" href="frise.html"><img src="../public/icons/arrow.svg" alt=""></a>
+                <div class="espace"></div>
+                <li class="ligne_menu">
+                    <div class="espace"></div>
+                    <a class="elements" href="galerie.html">Galerie de films</a></li>
+                <a class="fleche" href="galerie.html"><img src="../public/icons/arrow.svg" alt=""></a>
+                <div class="espace"></div>
+                <li class="ligne_menu">
+                    <div class="espace"></div>
+                    <a class="elements" href="apropos.html">A propos</a></li>
+                <a class="fleche" href="apropos.html"><img src="../public/icons/arrow.svg" alt=""></a>
+                <div class="espace"></div>
+                
+            
+            </ul>
         </nav>
+        
 
         
 
-        <a class="logo_position" href="accueil.html">
-            <img class="" src="../public/icons/logo.svg" alt="Logo Playing The Saw" />
+        <a class="" href="accueil.html">
+            <img class="logo_position" src="../public/icons/logo.svg" alt="Logo Playing The Saw" />
         </a>
 
         <p class="title title_position">Playing The Saw</p>
@@ -52,9 +100,8 @@
         <img class="position_cover_home" src="../public/img/home_cover.webp" alt="">
 
         
+</header>   
 
-        
-    </header>
 
     <div class="background collage">
         <h1 class="h1 container">
