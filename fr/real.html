@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen:false}" :class="{noscroll:menuIsOpen,}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playing The Saw</title>
+
+    <link rel="icon" href="../public/icons/logo.ico">
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <link rel="stylesheet" href="../src/css/import.css" />
+    <link rel="stylesheet" href="../src/css/header.css" />
+    <link rel="stylesheet" href="../src/css/footer.css" />
+    <link rel="stylesheet" href="../src/css/variable.css" />
+    <link rel="stylesheet" href="../src/css/menu.css" />
+    <link rel="stylesheet" href="../src/css/btn.css" />
+    <link rel="stylesheet" href="../src/css/articles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.js" defer></script>
+</head>
+<header class="header header--home">
+
+    <div aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" x-transition.duration.800ms
+        class="header_menuBtn menu_position">
+        <img src="../public/icons/Menu.svg" alt="">
+    </div>
+
+
+    <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu back_menu">
+        <a class="" href="accueil.html">
+            <img class="logo_position logo_menu" src="../public/icons/logo.svg" alt="Logo Playing The Saw" />
+        </a>
+        <div aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" x-transition.duration.800ms
+            class="position_croix_rouge">
+            <img src="../public/icons/Croix_rouge.svg" alt="">
+        </div>
+        <p class="title_menu position_titre">MENU</p>
+
+        <p class="elements_titre">ARTICLES</p>
+        <ul class="decalage_menu">
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="replique.html">Une réplique iconique</a>
+            </li>
+            <a class="fleche" href="replique.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="film.html">Un film : Saw</a>
+            </li>
+            <a class="fleche" href="film.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="real.html">James Wan, un réalisateur</a>
+            </li>
+            <a class="fleche" href="real.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="livre.html">Un livre psychologique</a>
+            </li>
+            <a class="fleche" href="livre.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="musique.html">Une musique, par 21 Savage</a>
+            </li>
+            <a class="fleche" href="musique.html"><img src="../public/icons/arrow.svg" alt=""></a>
+
+
+        </ul>
+        <div class="espace2"></div>
+        <p class="elements_titre_2">PLUS DE CONTENUS</p>
+
+        <ul>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="frise.html">Livrés associés</a>
+            </li>
+            <a class="fleche" href="frise.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="galerie.html">Galerie de films</a>
+            </li>
+            <a class="fleche" href="galerie.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="apropos.html">A propos</a>
+            </li>
+            <a class="fleche" href="apropos.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+
+        </ul>
+    </nav>
+
+
+
+
+    <a class="" href="accueil.html">
+        <img class="logo_position" src="../public/icons/logo.svg" alt="Logo Playing The Saw" />
+    </a>
+
+    <p class="title title_position">Playing The Saw</p>
+    <h1 class="titre_article">
+        Qui est James Wan, le maestro de l’horreur moderne ?
+    </h1>
+    <img class="position_scie" src="../public/img/scie.webp" alt="">
+    <img class="position_cover" src="../public/img/home_james_wan.webp" alt="">
+
+
+</header>
+
+<body class="background">
+    <section class="section">
+
+        <h4 class="h4">
+            James Wan est un réalisateur dont le nom est synonyme d'horreur et de suspense. Né le 26 février 1977 à Kuching, en
+            Malaisie, Wan est devenu l'une des figures les plus influentes du cinéma d'horreur contemporain. Son travail a redéfini
+            le genre et a marqué une génération de cinéphiles passionnés de frissons.
+        </h4>
+    </section>
+
+    <h2 class="h2 intertitre_espace">UN PETIT BUDGET POUR UN GRAND SUCCÈS</h2>
+
+    <section class="section">
+
+        <h4 class="h4">
+            Wan a fait ses premiers pas dans l'industrie cinématographique avec son film emblématique "Saw" en 2004. Ce film à petit
+            budget a révolutionné l'horreur en introduisant le concept de "torture porn", une sous-catégorie du genre qui se
+            caractérise par des scènes de violence graphique.
+        </h4>
+    </section>
+    <figure class="figure_style container image_center">
+        <img class="" src="../public/img/scene7.webp" alt="">
+        <figcaption class="figcaption_style">Scène de tension avec le personnage d'Amanda, prise au piège</figcaption>
+    </figure>
+
+    <section class="section">
+    
+        <h4 class="h4">
+            Wan a prouvé qu'il était capable de créer une tension psychologique intense tout en maintenant un budget modeste, ce qui
+            a fait de "Saw" un énorme succès commercial.
+        </h4>
+    </section>
+
+    <h2 class="h2 intertitre_espace">UNE FILMOGRAPHIE REMARQUABLE</h2>
+    <section class="section">
+        <h4 class="h4">
+            Puis, c'est avec la franchise "Insidious" (2010) et "Conjuring" (2013) que James Wan a solidifié sa réputation en tant
+            que maître de l'horreur
+        </h4>
+    </section>
+
+    <div class="container_gauche">
+        <img src="../public/img/insidious.webp" alt="">
+        
+    </div>
+
+    <div class="container_droit">
+        <img src="../public/img/conjuring.webp" alt="">
+        
+    </div>
+    <section class="section">
+        <h4 class="h4">
+            Ses films se caractérisent par une atmosphère terrifiante, des personnages bien développés et une narration captivante.
+            Wan sait comment jouer avec les peurs du public, en utilisant des éléments visuels et sonores pour créer une expérience
+            cinématographique immersive.
+        </h4>
+    </section>
+
+    <h2 class="h2 intertitre_espace">UN RÉALISATEUR RECONNU PAR LE MILIEU</h2>
+
+    <section class="section">
+        <h4 class="h4">
+            James Wan est également devenu un producteur très recherché à Hollywood, contribuant au succès de plusieurs projets à
+            succès. Son talent pour la réalisation, la narration et la création d'atmosphères uniques continue d'influencer de
+            nombreux cinéastes et inspire de nouvelles générations de réalisateurs d'horreur.
+        </h4>
+    </section>
+
+    <figure class="figure_style container image_center">
+        <img class="" src="../public/img/hollywood.webp" alt="">
+        <figcaption class="figcaption_style">Monument Hollywood, Los Angeles</figcaption>
+    </figure>
+
+    <h2 class="h2 intertitre_espace">UN IMPACT EXCEPTIONNEL SUR LE CINEMA</h2>
+    <section class="section">
+        <h4 class="h4">
+            En fin de compte, James Wan a réussi à transcender les frontières du genre de l'horreur pour devenir un réalisateur
+            polyvalent et respecté. Son impact sur l'industrie cinématographique est indéniable, et il reste une figure
+            incontournable dans le monde du cinéma contemporain. Les fans attendent avec impatience ses futurs projets, impatients
+            de voir comment il continuera à repousser les limites du cinéma d'horreur et à nous faire sursauter dans nos sièges de
+            cinéma.
+        </h4>
+    </section>
+    
+    <div class="remonte">
+        <a class="lire_article remonte decalage_gauche_2" href="livre.html">
+            <img src="../public/icons/lire_article_livre.svg" alt="">
+
+        </a>
+    </div>
+
+    </section>
+
+    <footer class="fond_footer">
+        <div class="pad"></div>
+
+        <section class="decalage">
+            <a class="foot" href="galerie.html">
+                <h2 class="">Galerie</h2>
+            </a>
+
+            <a class="foot" href="contact.html">
+                <h2 class="">Contact</h2>
+            </a>
+
+            <a class="foot" href="autreprojets.html">
+                <h2 class="">Autres projets</h2>
+            </a>
+
+            <a class="foot" href="apropos.html">
+                <h2 class="">A propos</h2>
+            </a>
+
+        </section>
+        <br>
+        <div class="ligne_blanche"></div>
+        <br>
+
+        <section>
+
+            <h3 class="mailto">Alban Chatelet - Groupe C1</h3>
+            <h3 class="mailto">chateletalban20@gmail.com</h3>
+        </section>
+        <br>
+        <div class="ligne_blanche"></div>
+        <div>
+            <h4 class="mentions decalage">Ce site est un projet réalisé dans le cadre d’un exercice pédagogique au
+                département MMI
+                Montbéliard</h4>
+            </p>
+
+            <div class="mmi"><img src="../public/img/logo_mmi.webp" alt=""></div>
+            <br><br>
+            <p class="mentions decalage">&copy; PlayingTheSaw</p>
+        </div>
+        <br><br><br>
+    </footer>
+</body>

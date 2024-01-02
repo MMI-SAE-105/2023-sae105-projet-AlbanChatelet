@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen:false}" :class="{noscroll:menuIsOpen,}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playing The Saw</title>
+
+    <link rel="icon" href="../public/icons/logo.ico">
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <link rel="stylesheet" href="../src/css/import.css" />
+    <link rel="stylesheet" href="../src/css/header.css" />
+    <link rel="stylesheet" href="../src/css/footer.css" />
+    <link rel="stylesheet" href="../src/css/variable.css" />
+    <link rel="stylesheet" href="../src/css/menu.css" />
+    <link rel="stylesheet" href="../src/css/btn.css" />
+    <link rel="stylesheet" href="../src/css/articles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.js" defer></script>
+</head>
+<header class="header header--home">
+
+    <div aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" x-transition.duration.800ms
+        class="header_menuBtn menu_position">
+        <img src="../public/icons/Menu.svg" alt="">
+    </div>
+
+
+    <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu back_menu">
+        <a class="" href="accueil.html">
+            <img class="logo_position logo_menu" src="../public/icons/logo.svg" alt="Logo Playing The Saw" />
+        </a>
+        <div aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" x-transition.duration.800ms
+            class="position_croix_rouge">
+            <img src="../public/icons/Croix_rouge.svg" alt="">
+        </div>
+        <p class="title_menu position_titre">MENU</p>
+
+        <p class="elements_titre">ARTICLES</p>
+        <ul class="decalage_menu">
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="replique.html">Une réplique iconique</a>
+            </li>
+            <a class="fleche" href="replique.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="film.html">Un film : Saw</a>
+            </li>
+            <a class="fleche" href="film.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="real.html">James Wan, un réalisateur</a>
+            </li>
+            <a class="fleche" href="real.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="livre.html">Un livre psychologique</a>
+            </li>
+            <a class="fleche" href="livre.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="musique.html">Une musique, par 21 Savage</a>
+            </li>
+            <a class="fleche" href="musique.html"><img src="../public/icons/arrow.svg" alt=""></a>
+
+
+        </ul>
+        <div class="espace2"></div>
+        <p class="elements_titre_2">PLUS DE CONTENUS</p>
+
+        <ul>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="frise.html">Livrés associés</a>
+            </li>
+            <a class="fleche" href="frise.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="galerie.html">Galerie de films</a>
+            </li>
+            <a class="fleche" href="galerie.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="apropos.html">A propos</a>
+            </li>
+            <a class="fleche" href="apropos.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+
+        </ul>
+    </nav>
+
+
+
+
+    <a class="" href="accueil.html">
+        <img class="logo_position" src="../public/icons/logo.svg" alt="Logo Playing The Saw" />
+    </a>
+
+    <p class="title title_position">Playing The Saw</p>
+    <h1 class="titre_article">
+        "Nous allons jouer à un jeu" : L'Énigme Mortelle de Jigsaw
+    </h1>
+    <img class="position_scie" src="../public/img/scie.webp" alt="">
+
+    <div class="image-container">
+        <img class="position_cover flex image1 stacked-image" src="../public/img/television.svg" alt="">
+    <video class="position_tele flex image2 stacked-image" height="200"  controls>
+        <source src="../public/video/extrait.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la balise video.
+    </video>
+    
+
+
+    </div>
+    
+
+
+</header>
+
+<body class="background">
+    <section class="section">
+
+        <h4 class="h4">
+            L'une des phrases emblématiques du film, prononcée par le personnage principal, Jigsaw, incarné par Tobin Bell, a
+            instantanément captivé l'attention du public : "Nous allons jouer à un jeu." Elle a marqué le début de l'horreur
+            psychologique et du sous-genre du "torture porn". Mais qu'est-ce qui rend cette réplique si mémorable et effrayante ?
+        </h4>
+    </section>
+
+    <h2 class="h2 intertitre_espace">UNE PHRASE SOURCE DE FRISSONS</h2>
+
+    <section class="section">
+
+        <h4 class="h4">
+            Premièrement, la phrase elle-même est dite avec un calme sinistre par Jigsaw, un tueur en série notoire qui place ses
+            victimes dans des situations de vie ou de mort. Lorsque les personnages du film entendent ces mots, ils savent qu'ils
+            sont en grave danger, et cela crée une tension palpable pour le public.
+        </h4>
+    </section>
+    <figure class="figure_style container image_center">
+        <img class="" src="../public/img/scene1.webp" alt="">
+        <figcaption class="figcaption_style">Adam, découvrant son sort en même temps que le spectateur</figcaption>
+    </figure>
+
+    <h2 class="h2 intertitre_espace">UN ÉLÉMENT CENTRAL DE LA FRANCHISE</h2>
+    <section class="section">
+        <h4 class="h4">
+            Ensuite, la phrase est souvent suivie d'une explication de la tâche macabre à accomplir pour échapper à la mort
+            imminente. Ces jeux mortels sont ingénieusement conçus pour tester la moralité et la survie des victimes. Les
+            spectateurs sont ainsi pris au piège de l'intrigue, anticipant avec anxiété les choix difficiles que les personnages
+            vont devoir faire. Cette réplique est devenue un élément central de la mythologie "Saw". Elle est répétée tout au long
+            de la franchise, ce qui la rend encore plus inquiétante à chaque apparition.
+        </h4>
+    </section>
+
+    <figure class="figure_style container image_center">
+        <img class="" src="../public/img/meme.webp" alt="">
+        <figcaption class="figcaption_style">Meme de Jigsaw avec la réplique</figcaption>
+    </figure>
+
+    
+    <section class="section">
+        <h4 class="h4">
+            Elle est devenue l'emblème de Jigsaw, évoquant l'horreur et l'inévitable. Elle a également inspiré de nombreux mèmes,
+            parodies et références dans la culture populaire, témoignant de son impact durable.
+        </h4>
+    </section>
+    <h2 class="h2 intertitre_espace">UNE DIMENSION PSYCHOLOGIQUE</h2>
+    <section class="section">
+        <h4 class="h4">
+            En fin de compte, cette phrase emblématique incarne parfaitement l'essence de "Saw" en tant que film d'horreur
+            intelligent et manipulateur. Elle nous rappelle que le véritable effroi réside parfois dans la psyché humaine et les
+            choix impossibles, plutôt que dans les monstres surnaturels.
+        </h4>
+    </section>
+    <figure class="figure_style container image_center">
+        <img class="" src="../public/img/scene2.webp" alt="">
+        <figcaption class="figcaption_style">Illustration représentant la manipulation</figcaption>
+    </figure>
+
+    <section class="section intertitre_espace">
+        <h4 class="h4">
+            "Nous allons jouer à un jeu" reste un cri de guerre terrifiant pour les fans du genre, rappelant que dans l'univers de
+            Jigsaw, personne n'est à l'abri de ses sombres énigmes mortelles.
+        </h4>
+    </section>
+    <div class="remonte">
+        <a class="lire_article remonte decalage_gauche_2" href="film.html">
+            <img src="../public/icons/lire_article_film.svg" alt="">
+
+        </a>
+    </div>
+        
+    </section>
+
+    <footer class="fond_footer">
+        <div class="pad"></div>
+    
+        <section class="decalage">
+            <a class="foot" href="galerie.html">
+                <h2 class="">Galerie</h2>
+            </a>
+    
+            <a class="foot" href="contact.html">
+                <h2 class="">Contact</h2>
+            </a>
+    
+            <a class="foot" href="autreprojets.html">
+                <h2 class="">Autres projets</h2>
+            </a>
+    
+            <a class="foot" href="apropos.html">
+                <h2 class="">A propos</h2>
+            </a>
+    
+        </section>
+        <br>
+        <div class="ligne_blanche"></div>
+        <br>
+    
+        <section>
+    
+            <h3 class="mailto">Alban Chatelet - Groupe C1</h3>
+            <h3 class="mailto">chateletalban20@gmail.com</h3>
+        </section>
+        <br>
+        <div class="ligne_blanche"></div>
+        <div>
+            <h4 class="mentions decalage">Ce site est un projet réalisé dans le cadre d’un exercice pédagogique au
+                département MMI
+                Montbéliard</h4>
+            </p>
+    
+            <div class="mmi"><img src="../public/img/logo_mmi.webp" alt=""></div>
+            <br><br>
+            <p class="mentions decalage">&copy; PlayingTheSaw</p>
+        </div>
+        <br><br><br>
+    </footer>
+</body>

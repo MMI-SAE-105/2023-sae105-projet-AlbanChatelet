@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen:false}" :class="{noscroll:menuIsOpen,}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playing The Saw</title>
+
+    <link rel="icon" href="../public/icons/logo.ico">
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <link rel="stylesheet" href="../src/css/import.css" />
+    <link rel="stylesheet" href="../src/css/header.css" />
+    <link rel="stylesheet" href="../src/css/footer.css" />
+    <link rel="stylesheet" href="../src/css/variable.css" />
+    <link rel="stylesheet" href="../src/css/menu.css" />
+    <link rel="stylesheet" href="../src/css/btn.css" />
+    <link rel="stylesheet" href="../src/css/articles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.js" defer></script>
+</head>
+<header class="header header--home">
+
+    <div aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" x-transition.duration.800ms
+        class="header_menuBtn menu_position">
+        <img src="../public/icons/Menu.svg" alt="">
+    </div>
+
+
+    <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu back_menu">
+        <a class="" href="accueil.html">
+            <img class="logo_position logo_menu" src="../public/icons/logo.svg" alt="Logo Playing The Saw" />
+        </a>
+        <div aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" x-transition.duration.800ms
+            class="position_croix_rouge">
+            <img src="../public/icons/Croix_rouge.svg" alt="">
+        </div>
+        <p class="title_menu position_titre">MENU</p>
+
+        <p class="elements_titre">ARTICLES</p>
+        <ul class="decalage_menu">
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="replique.html">Une réplique iconique</a>
+            </li>
+            <a class="fleche" href="replique.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="film.html">Un film : Saw</a>
+            </li>
+            <a class="fleche" href="film.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="real.html">James Wan, un réalisateur</a>
+            </li>
+            <a class="fleche" href="real.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="livre.html">Un livre psychologique</a>
+            </li>
+            <a class="fleche" href="livre.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="musique.html">Une musique, par 21 Savage</a>
+            </li>
+            <a class="fleche" href="musique.html"><img src="../public/icons/arrow.svg" alt=""></a>
+
+
+        </ul>
+        <div class="espace2"></div>
+        <p class="elements_titre_2">PLUS DE CONTENUS</p>
+
+        <ul>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="frise.html">Livrés associés</a>
+            </li>
+            <a class="fleche" href="frise.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="galerie.html">Galerie de films</a>
+            </li>
+            <a class="fleche" href="galerie.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="apropos.html">A propos</a>
+            </li>
+            <a class="fleche" href="apropos.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+
+        </ul>
+    </nav>
+
+
+
+
+    <a class="" href="accueil.html">
+        <img class="logo_position" src="../public/icons/logo.svg" alt="Logo Playing The Saw" />
+    </a>
+
+    <p class="title title_position">Playing The Saw</p>
+    <h1 class="titre_article">
+        "Spiral" de 21 Savage : Un Hymne Sombre pour "Saw IX"
+    </h1>
+    <img class="position_scie" src="../public/img/scie.webp" alt="">
+    <img class="position_cover" src="../public/img/cover_single.webp" alt="">
+
+
+</header>
+
+<body class="background">
+    <section class="section">
+
+        <h4 class="h4">
+            En 2021, la saga "Saw" est revenue sur les écrans de cinéma avec "Spiral", le neu-vième opus de la série. L'un des
+            éléments les plus marquants de ce film a été la chanson du générique de fin, sobrement intitulée "Spiral", interprétée
+            par le rappeur 21 Savage. Cette chanson a ajouté une dimension sombre et percutante à l'ex-périence cinématographique,
+            renforçant l'atmosphère sinistre du film et est le titre majeur de la bande originale du film, sortie en 2021.
+        </h4>
+    </section>
+
+    <h2 class="h2 intertitre_espace">UNE INSPIRATION À L'HORROCORE</h2>
+
+    <section class="section">
+
+        <h4 class="h4">
+            La chanson "Spiral" de 21 Savage se place donc pleinement dans le style de l’Horror-core, un sous-genre du Hip Hop
+            puisant ses inspirations dans les films d’horreur et dans l’horrifique.
+        </h4>
+    </section>
+    <figure class="figure_style container image_center">
+        <img class="" src="../public/img/scene9.webp" alt="">
+        <figcaption class="figcaption_style">Illustration représentative de l'Horrocore</figcaption>
+    </figure>
+
+    <section class="section">
+        <h4 class="h4">
+            Cette sensation est renforcée par le vidéo clip promotionnelle qui à pour objectif de choquer l’internaute et de
+            dépeindre l’univers violent du film.
+        </h4>
+    </section>
+
+    <figure class="figure_style container image_center">
+        <img class="" src="../public/img/scene10.webp" alt="">
+        <figcaption class="figcaption_style lien"> <a href="https://www.youtube.com/watch?v=3Nwx6be__oU&pp=ygUQMjEgc2F2YWdlIHNwaXJhbA%3D%3D">Voir le clip sur Youtube</a></figcaption>
+    </figure>
+
+    <h2 class="h2 intertitre_espace">UNE COLLABORATION COHÉRENTE ET BIENVENUE</h2>
+    <section class="section">
+        <h4 class="h4">
+            Cette collaboration mêlant rap et cinéma était surprenante mais bienvenue. Le rappeur, connu pour son style unique et
+            son lyrisme cru, était le choix parfait pour donner une voix à l'horreur de "Spiral". Sa musique explore souvent des
+            thèmes sombres et violents, ce qui s'accorde parfaitement avec l'univers sadique de la saga "Saw".
+        </h4>
+    </section>
+    <figure class="figure_style container image_center">
+        <img class="" src="../public/img/scene11.webp" alt="">
+        <figcaption class="figcaption_style">Image issue du clip</figcaption>
+    </figure>
+    <h2 class="h2 intertitre_espace">UN RAPPEL À LA MUSIQUE ICONIQUE DE "SAW"</h2>
+    <section class="section">
+        <h4 class="h4">
+            L’instrumentale de "Spiral" reprend le sample iconique de la saga « Hello Zepp » de Charlie Clouser, remixé par des
+            percussions « Trap », modernes et effrénée.
+        </h4>
+    </section>
+    <figure class="figure_style container image_center">
+        <img class="" src="../public/img/cover_album.webp" alt="">
+        <figcaption class="figcaption_style"><a href="https://open.spotify.com/intl-fr/album/5gTisM7GUr1idB1UL3Yva6?si=d1572339e362465f">Écoutez l’EP associé “Spiral : From the Book of Saw Soundtrack sur Spotify</a></figcaption>
+    </figure>
+
+    <h2 class="h2 intertitre_espace">UNE AMBIANCE GLACIALE ET VIOLENTE</h2>
+
+    <section class="section">
+        <h4 class="h4">
+            Le refrain de la chanson est hypnotique et répétitif, soulignant l'obsession du prota-goniste pour le jeu mortel
+            orchestré par le tueur en série. La voix profonde et glaciale de 21 Savage donne une nouvelle dimension au personnage de
+            Jigsaw, renforçant sa menace et son aura sinistre.
+        </h4>
+    </section>
+
+    <h2 class="h2 intertitre_espace">LA MUSIQUE COMME FORCE POUR LE FILM</h2>
+    <figure class="figure_style container image_center">
+        <img class="" src="../public/img/scene12.webp" alt="">
+        <figcaption class="figcaption_style">21 Savage</figcaption>
+    </figure>
+
+    <section class="section intertitre_espace">
+        <h4 class="h4">
+            Cette musique contribue à immerger le public dans l'horreur et le suspense du film, faisant écho aux tourments
+            psychologiques des personnages à l'écran. Cette collaboration entre le rappeur et la franchise "Saw" montre comment la
+            musique peut être utilisée de manière puissante pour renforcer l'impact émotionnel d'un film d'horreur
+        </h4>
+
+        <a class="lire_article remonte decalage_gauche_2" href="accueil.html">
+            <img src="../public/icons/back_home.svg" alt="">
+        
+        </a>
+    </section>
+
+
+
+    <footer class="fond_footer">
+        <div class="pad"></div>
+    
+        <section class="decalage">
+            <a class="foot" href="galerie.html">
+                <h2 class="">Galerie</h2>
+            </a>
+    
+            <a class="foot" href="contact.html">
+                <h2 class="">Contact</h2>
+            </a>
+    
+            <a class="foot" href="autreprojets.html">
+                <h2 class="">Autres projets</h2>
+            </a>
+    
+            <a class="foot" href="apropos.html">
+                <h2 class="">A propos</h2>
+            </a>
+    
+        </section>
+        <br>
+        <div class="ligne_blanche"></div>
+        <br>
+    
+        <section>
+    
+            <h3 class="mailto">Alban Chatelet - Groupe C1</h3>
+            <h3 class="mailto">chateletalban20@gmail.com</h3>
+        </section>
+        <br>
+        <div class="ligne_blanche"></div>
+        <div>
+            <h4 class="mentions decalage">Ce site est un projet réalisé dans le cadre d’un exercice pédagogique au
+                département MMI
+                Montbéliard</h4>
+            </p>
+    
+            <div class="mmi"><img src="../public/img/logo_mmi.webp" alt=""></div>
+            <br><br>
+            <p class="mentions decalage">&copy; PlayingTheSaw</p>
+        </div>
+        <br><br><br>
+    </footer>
+</body>

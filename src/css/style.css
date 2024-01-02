@@ -61,7 +61,7 @@
 }
 
 .intertitre_espace {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .h2-2 {
@@ -159,6 +159,14 @@ body {
     padding: 30px;
 }
 
+.container_droit {
+    display: flex;
+    margin-left: 160px;
+    margin-top: -287.5px;
+    padding: 30px;
+    height:224px;
+}
+
 .container img {
     margin-left: 0%;
     margin-right: 0px;
@@ -188,4 +196,30 @@ body {
     font-style: italic;
     color: #d5c2c2;
     
+}
+
+.flex {
+    display: flex;
+}
+
+.image1 {
+    z-index: 1;
+}
+
+.image2 {
+    z-index: 2;
+}
+
+.stacked-image {
+   
+    top: 0;
+    left: 0;
+}
+
+
+
+.position_tele {
+    margin-left: -320px;
+    margin-top: -250px;
+    padding-bottom: 50px;
 }

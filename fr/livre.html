@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen:false}" :class="{noscroll:menuIsOpen,}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playing The Saw</title>
+
+    <link rel="icon" href="../public/icons/logo.ico">
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <link rel="stylesheet" href="../src/css/import.css" />
+    <link rel="stylesheet" href="../src/css/header.css" />
+    <link rel="stylesheet" href="../src/css/footer.css" />
+    <link rel="stylesheet" href="../src/css/variable.css" />
+    <link rel="stylesheet" href="../src/css/menu.css" />
+    <link rel="stylesheet" href="../src/css/btn.css" />
+    <link rel="stylesheet" href="../src/css/articles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.js" defer></script>
+</head>
+<header class="header header--home">
+
+    <div aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" x-transition.duration.800ms
+        class="header_menuBtn menu_position">
+        <img src="../public/icons/Menu.svg" alt="">
+    </div>
+
+
+    <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu back_menu">
+        <a class="" href="accueil.html">
+            <img class="logo_position logo_menu" src="../public/icons/logo.svg" alt="Logo Playing The Saw" />
+        </a>
+        <div aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" x-transition.duration.800ms
+            class="position_croix_rouge">
+            <img src="../public/icons/Croix_rouge.svg" alt="">
+        </div>
+        <p class="title_menu position_titre">MENU</p>
+
+        <p class="elements_titre">ARTICLES</p>
+        <ul class="decalage_menu">
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="replique.html">Une réplique iconique</a>
+            </li>
+            <a class="fleche" href="replique.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="film.html">Un film : Saw</a>
+            </li>
+            <a class="fleche" href="film.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="real.html">James Wan, un réalisateur</a>
+            </li>
+            <a class="fleche" href="real.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="livre.html">Un livre psychologique</a>
+            </li>
+            <a class="fleche" href="livre.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="musique.html">Une musique, par 21 Savage</a>
+            </li>
+            <a class="fleche" href="musique.html"><img src="../public/icons/arrow.svg" alt=""></a>
+
+
+        </ul>
+        <div class="espace2"></div>
+        <p class="elements_titre_2">PLUS DE CONTENUS</p>
+
+        <ul>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="frise.html">Livrés associés</a>
+            </li>
+            <a class="fleche" href="frise.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="galerie.html">Galerie de films</a>
+            </li>
+            <a class="fleche" href="galerie.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="apropos.html">A propos</a>
+            </li>
+            <a class="fleche" href="apropos.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+
+        </ul>
+    </nav>
+
+
+
+
+    <a class="" href="accueil.html">
+        <img class="logo_position" src="../public/icons/logo.svg" alt="Logo Playing The Saw" />
+    </a>
+
+    <p class="title title_position">Playing The Saw</p>
+    <h1 class="titre_article">
+        "The Cutting Edge": Décryptage Philosophique de Saw
+    </h1>
+    <img class="position_scie" src="../public/img/scie.webp" alt="">
+    <img class="position_cover_livre" src="../public/img/livre.webp" alt="">
+
+
+</header>
+
+<body class="background">
+    <section class="section">
+
+        <h4 class="h4">
+            En 2013, l'auteur C.J. Patton a plongé profondément dans l'univers tordu et complexe de la franchise cinématographi-que
+            "Saw" avec son livre intitulé "The Cutting Edge: Philosophy of the SAW Films". Ce livre a été acclamé par les amateurs
+            de philosophie et de cinéma d'horreur, car il explore les thèmes et les questions philosophiques soulevés par la saga,
+            créant ainsi une analyse fascinante et approfondie de cette série emblématique.
+        </h4>
+    </section>
+
+    <h2 class="h2 intertitre_espace">LA FRANCHISE "SAW" COMME POINT DE DEPART</h2>
+
+    <section class="section">
+
+        <h4 class="h4">
+            En 2013, l'auteur C.J. Patton a plongé profondément dans l'univers tordu et complexe de la franchise cinématogra-phique
+            "Saw" avec son livre intitulé "The Cutting Edge: Philosophy of the SAW Films". Ce livre a été acclamé par les amateurs
+            de philosophie et de cinéma d'horreur, car il explore les thèmes et les questions philo-sophiques soulevés par la saga,
+            créant ainsi une analyse fascinante et approfondie de cette série emblématique.
+        </h4>
+    </section>
+
+    <h2 class="h2 intertitre_espace">UNE ANALYSE EN PROFONDEUR DES PERSONNAGES</h2>
+
+    <section class="section">
+    
+        <h4 class="h4">
+            L'un des aspects les plus impressionnants du livre est la manière dont l'auteur analyse en profondeur les personnages
+            clés de la série, en mettant particulièrement l'accent sur John Kramer, alias Jigsaw. Il décortique les motivations et
+            les justifications de Jigsaw pour ses actions, examinant comment un homme torturé par sa propre expérience de la mort
+            peut devenir un juge moral auto-proclamé.
+        </h4>
+    </section>
+
+    <h2 class="h2 intertitre_espace">UNE ANALYSE PSYCHOLOGIQUE PROFONDE</h2>
+
+    <section class="section">
+    
+        <h4 class="h4">
+            Le livre de Patton examine également la psychologie des victimes de Jigsaw et les choix difficiles auxquels elles sont
+            confrontées. Il explore les limites du comportement humain sous la menace de la mort imminente et comment les
+            personnages de la franchise réagissent à ces situations extrêmes.
+        </h4>
+    </section>
+
+    <figure class="figure_style container image_center">
+        <img class="" src="../public/img/scene8.webp" alt="">
+        <figcaption class="figcaption_style">Scène ou Lawrence Gordon doit faire un choix difficile</figcaption>
+    </figure>
+
+    <section class="section">
+
+        <h4 class="h4">
+            La philosophie abordée dans ce livre n'est pas seulement une analyse théorique, mais elle offre également une
+            perspective nou-velle et intrigante sur la saga, enrichissant ainsi l'expérience de visionnage pour les fans de la
+            série.
+        </h4>
+    </section>
+
+    
+    
+
+    <h2 class="h2 intertitre_espace">UN INCONTOURNABLE DANS LE MILIEU PHILOSOPHIQUE</h2>
+
+    <section class="section intertitre_espace">
+        <h4 class="h4">
+            Cet ouvrage est donc incontournable pour les amateurs de philosophie, de cinéma d'horreur et de la franchise "Saw" pour
+            ceux qui cherchent à explorer les coins les plus sombres de la philosophie à travers l'objectif de l'horreur.
+        </h4>
+    
+
+    
+
+    <a class="lire_article remonte decalage_gauche_2" href="musique.html">
+        <img src="../public/icons/lire_article_musique.svg" alt="">
+    
+    </a>
+    
+    <a class="lire_article remonte decalage_gauche" href="galerie.html">
+        <img src="../public/icons/livres_associes.svg" alt="">
+    
+    </a>
+    </section>
+
+    <footer class="fond_footer">
+        <div class="pad"></div>
+
+        <section class="decalage">
+            <a class="foot" href="galerie.html">
+                <h2 class="">Galerie</h2>
+            </a>
+
+            <a class="foot" href="contact.html">
+                <h2 class="">Contact</h2>
+            </a>
+
+            <a class="foot" href="autreprojets.html">
+                <h2 class="">Autres projets</h2>
+            </a>
+
+            <a class="foot" href="apropos.html">
+                <h2 class="">A propos</h2>
+            </a>
+
+        </section>
+        <br>
+        <div class="ligne_blanche"></div>
+        <br>
+
+        <section>
+
+            <h3 class="mailto">Alban Chatelet - Groupe C1</h3>
+            <h3 class="mailto">chateletalban20@gmail.com</h3>
+        </section>
+        <br>
+        <div class="ligne_blanche"></div>
+        <div>
+            <h4 class="mentions decalage">Ce site est un projet réalisé dans le cadre d’un exercice pédagogique au
+                département MMI
+                Montbéliard</h4>
+            </p>
+
+            <div class="mmi"><img src="../public/img/logo_mmi.webp" alt=""></div>
+            <br><br>
+            <p class="mentions decalage">&copy; PlayingTheSaw</p>
+        </div>
+        <br><br><br>
+    </footer>
+</body>

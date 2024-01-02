@@ -1,16 +1,24 @@
 .position_cover {
-    display:flex;
-    position:relative;
+    
+    
     margin-top: 460px;
     margin-left: -335px;
     padding-bottom: 10px;
 }
 
+.position_cover_livre {
+
+
+    margin-top: 460px;
+    margin-left: -305px;
+    padding-bottom: 10px;
+}
+
 .position_scie {
-    display:flex;
+    
     width: 322px;
     height: 298px;
-    position:relative;
+    
     flex-shrink: 0;
     margin-left:-350px;
     margin-top: 300px;
@@ -31,4 +39,8 @@
         padding: 10px;
         margin-left: -280px;
         margin-top: 125px;
+}
+
+.lien {
+    text-decoration:none;
 }
