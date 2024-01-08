@@ -133,7 +133,7 @@
 
 .titre_frise {
     
-    width: 350px;
+    width: 325px;
     height: 94px;
     flex-shrink: 0;
     color: #F8F8F8;
@@ -145,7 +145,7 @@
     line-height: 110%;
     
     padding: 10px;
-    margin-left: -280px;
+    margin-left: -270px;
     margin-top: 125px;
         
 }
@@ -243,6 +243,10 @@ body {
     padding-bottom: 50px;
 }
 
+.remonte_2 {
+    margin-top: -30px;
+}
+
 .rectangle_frise {
     
     width: 255px;
@@ -315,6 +319,16 @@ body {
     height: 29px;
     flex-shrink: 0;
     margin-top: -300px;
+    margin-left: 231px;
+}
+
+.rectangle_date_2 {
+
+    display: flex;
+    width: 64px;
+    height: 29px;
+    flex-shrink: 0;
+    margin-top: -260px;
     margin-left: 231px;
 }
 
