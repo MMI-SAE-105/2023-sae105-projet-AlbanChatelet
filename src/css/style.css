@@ -246,7 +246,7 @@ body {
 .rectangle_frise {
     
     width: 255px;
-    height: 2269px;
+    height: 2150px;
     flex-shrink: 0;
     background: linear-gradient(180deg, rgba(1, 1, 1, 0.00) 0%, #010101 53.02%);
     margin-left: 60px;
@@ -274,8 +274,23 @@ body {
     font-weight: 500;
     line-height: 110%;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 275px;
     
+}
+
+.legende_livre_2 {
+
+    width: 228px;
+    flex-shrink: 0;
+    color: #F8F8F8;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    text-align: center;
+    margin-top: 275px;
+    margin-left: 15px;
 }
 
 .legende_livre_auteur {
@@ -294,14 +309,16 @@ body {
 }
 
 .rectangle_date {
-    position:absolute;
+
     display:flex;
     width: 64px;
     height: 29px;
     flex-shrink: 0;
     margin-top: -300px;
-    margin-left: 230.5px;
+    margin-left: 231px;
 }
+
+
 
 .position_date {
     width: 63px;
