@@ -131,6 +131,25 @@
 
 }
 
+.titre_frise {
+    
+    width: 350px;
+    height: 94px;
+    flex-shrink: 0;
+    color: #F8F8F8;
+    text-align: center;
+    font-family: Roboto Slab;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    
+    padding: 10px;
+    margin-left: -280px;
+    margin-top: 125px;
+        
+}
+
 .espace {
     padding: 10px;
 }
