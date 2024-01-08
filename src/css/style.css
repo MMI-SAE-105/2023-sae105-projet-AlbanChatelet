@@ -349,3 +349,29 @@ body {
     margin-top: 4px;
 
 }
+
+.espace_galerie {
+    padding-top: 30px;
+}
+
+.image-container {
+    position: relative;
+    cursor: pointer;
+}
+
+.info-band {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.image-container.active .info-band {
+    display: block;
+}
