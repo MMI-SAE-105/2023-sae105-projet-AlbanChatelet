@@ -242,3 +242,79 @@ body {
     margin-top: -250px;
     padding-bottom: 50px;
 }
+
+.rectangle_frise {
+    
+    width: 255px;
+    height: 2269px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, rgba(1, 1, 1, 0.00) 0%, #010101 53.02%);
+    margin-left: 60px;
+}
+
+.position_triangle {
+    margin-left: 40px;
+    margin-top: -2px;
+    padding-bottom: 2px;
+}
+
+.position_livre {
+    margin-top: 40px;
+    
+}
+
+.legende_livre {
+    
+    width: 255px;
+    flex-shrink: 0;
+    color: #F8F8F8;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    text-align: center;
+    margin-top: 5px;
+    
+}
+
+.legende_livre_auteur {
+
+    width: 255px;
+    flex-shrink: 0;
+    color: #FF7689;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    text-align: center;
+    margin-top: -10px;
+
+}
+
+.rectangle_date {
+    position:absolute;
+    display:flex;
+    width: 64px;
+    height: 29px;
+    flex-shrink: 0;
+    margin-top: -300px;
+    margin-left: 230.5px;
+}
+
+.position_date {
+    width: 63px;
+    height: 27px;
+    flex-shrink: 0;
+    color: #010101;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: bold;
+    font-weight: 400;
+    line-height: 110%;
+    margin-left: -65px;
+    margin-top: 4px;
+
+}
