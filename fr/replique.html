@@ -15,22 +15,25 @@
     <link rel="stylesheet" href="../src/css/menu.css" />
     <link rel="stylesheet" href="../src/css/btn.css" />
     <link rel="stylesheet" href="../src/css/articles.css" />
+    <link rel="stylesheet" href="../src/css/transition.css" />
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.js" defer></script>
 </head>
 <header class="header header--home">
 
-    <div aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" x-transition.duration.800ms
-        class="header_menuBtn menu_position">
+
+
+
+    <div aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header_menuBtn menu_position">
         <img src="../public/icons/Menu.svg" alt="">
     </div>
 
 
-    <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu back_menu">
+    <nav id="mainNav" x-show="menuIsOpen" class="menu back_menu container_transition">
         <a class="" href="index.html">
             <img class="logo_position logo_menu" src="../public/icons/logo.svg" alt="Logo Playing The Saw" />
         </a>
-        <div aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" x-transition.duration.800ms
-            class="position_croix_rouge">
+        <div aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"
+            class="container_transition position_croix_rouge">
             <img src="../public/icons/Croix_rouge.svg" alt="">
         </div>
         <p class="title_menu position_titre">MENU</p>
@@ -101,7 +104,6 @@
 
 
 
-
     <a class="" href="index.html">
         <img class="logo_position" src="../public/icons/logo.svg" alt="Logo Playing The Saw" />
     </a>
@@ -114,7 +116,7 @@
 
     <div class="image-container">
         <img class="position_television flex image1 stacked-image" src="../public/img/television.svg" alt="">
-    <video class="position_tele flex image2 stacked-image" height="200"  controls>
+    <video class="position_tele flex " height="200"  controls>
         <source src="../public/video/extrait.mp4" type="video/mp4">
         Votre navigateur ne supporte pas la balise video.
     </video>
