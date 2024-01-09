@@ -354,24 +354,27 @@ body {
     padding-top: 30px;
 }
 
-.image-container {
-    position: relative;
-    cursor: pointer;
+.galerie_legende {
+    
+    margin-left: 65px;
+    margin-top: -5px;
 }
 
-.info-band {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #fff;
-    padding: 10px;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    z-index: 1;
+.legende_texte {
+    width: 228px;
+    flex-shrink: 0;
+    color: #010101;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    text-align: center;
+    margin-top: -15px;
+    margin-left: 7.5px;
+    
 }
 
-.image-container.active .info-band {
-    display: block;
+.galerie_legende_position {
+    margin-top: -65px;
 }
