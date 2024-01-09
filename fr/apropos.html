@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen:false}" :class="{noscroll:menuIsOpen,}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playing The Saw</title>
+
+    <link rel="icon" href="../public/icons/logo.ico">
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <link rel="stylesheet" href="../src/css/import.css" />
+    <link rel="stylesheet" href="../src/css/header.css" />
+    <link rel="stylesheet" href="../src/css/footer.css" />
+    <link rel="stylesheet" href="../src/css/variable.css" />
+    <link rel="stylesheet" href="../src/css/menu.css" />
+    <link rel="stylesheet" href="../src/css/btn.css" />
+    <link rel="stylesheet" href="../src/css/articles.css" />
+    <link rel="stylesheet" href="../src/css/contact.css" />
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.js" defer></script>
+</head>
+<header class="header header--home">
+
+    <div aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" x-transition.duration.800ms
+        class="header_menuBtn menu_position">
+        <img src="../public/icons/Menu.svg" alt="">
+    </div>
+
+
+    <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu back_menu container_transition">
+        <a class="" href="accueil.html">
+            <img class="logo_position logo_menu" src="../public/icons/logo.svg" alt="Logo Playing The Saw" />
+        </a>
+        <div aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" x-transition.duration.800ms
+            class="position_croix_rouge">
+            <img src="../public/icons/Croix_rouge.svg" alt="">
+        </div>
+        <p class="title_menu position_titre">MENU</p>
+
+        <p class="elements_titre">ARTICLES</p>
+        <ul class="decalage_menu">
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="replique.html">Une réplique iconique</a>
+            </li>
+            <a class="fleche" href="replique.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="film.html">Un film : Saw</a>
+            </li>
+            <a class="fleche" href="film.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="real.html">James Wan, un réalisateur</a>
+            </li>
+            <a class="fleche" href="real.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="livre.html">Un livre psychologique</a>
+            </li>
+            <a class="fleche" href="livre.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="musique.html">Une musique, par 21 Savage</a>
+            </li>
+            <a class="fleche" href="musique.html"><img src="../public/icons/arrow.svg" alt=""></a>
+
+
+        </ul>
+        <div class="espace2"></div>
+        <p class="elements_titre_2">PLUS DE CONTENUS</p>
+
+        <ul>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="frise.html">Livres associés</a>
+            </li>
+            <a class="fleche" href="frise.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="galerie.html">Galerie de films</a>
+            </li>
+            <a class="fleche" href="galerie.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="apropos.html">A propos</a>
+            </li>
+            <a class="fleche" href="apropos.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+
+        </ul>
+    </nav>
+
+
+
+
+    <a class="" href="accueil.html">
+        <img class="logo_position" src="../public/icons/logo.svg" alt="Logo Playing The Saw" />
+    </a>
+
+    <p class="title title_position">Playing The Saw</p>
+    <h1 class="titre_frise">
+        À propos
+    </h1>
+
+
+
+</header>
+
+<body class="background">
+    <div class="espace_2"></div>
+    
+    <div class="container">
+        <img src="../public/icons/avatar.svg" alt="">
+    </div>
+
+<section>
+    <div class="espace2"></div>
+    <div class="barre">
+        <p class="apropos">Qui suis-je ?</p>
+    </div>
+
+    <p class="h4">Salut, je suis Alban Chatelet et je suis en 1ère année de BUT MMI (Métiers du Multimédia et de l’Internet) à
+    Montbéliard.</p>
+    <div class="petits_espace"></div>
+    <p class="h4">Ce site est un projet qui à pour sujet la réplique “Nous allons jouer à un jeu”. Il a pour but de présenter différents
+    articles autour de la franchise de film d’horreur « Saw ».</p>
+    <div class="petits_espace"></div>
+    <p class="h4">Donc ce site à pour thème « Saw » et tout ce qui l’entoure, notamment le réalisateur, un livre & une musique associés.</p>
+</section>
+    
+<section>
+    
+    <div class="barre">
+        <p class="apropos">Glossaire</p>
+    </div>
+
+    <p class="h4"><p class="texteEnGras">Jigsaw (appelé parfois le Tueur au Puzzle en version française) : </p>est un personnage de fiction, à la fois personnage
+    central et principal antagoniste de la série de films d'horreur Saw créée par James Wan et Leigh Whannell.</p>
+    <div class="petits_espace"></div>
+    <p class="h4"><p class="texteEnGras">Percussions « Trap » : </p>La trap (sous-genre du Hip Hop) est un style musical qui a pris son origine dans le Dirty South,
+    et a émergé au début des années 2000 dans le sud des États-Unis.</p>
+    <div class="petits_espace"></div>
+    <p class="h4"><p class="texteEnGras">Horrorcore : </p>Genre musical mélangent le hip-hop basé sur des thèmes et paroles sur les films d'horreur.</p>
+    <div class="petits_espace"></div>
+    <p class="h4">Sample : Échantillon musical.</p>
+    <div class="petits_espace"></div>
+    <p class="h4"><p class="texteEnGras">Body horror :</p> Sous-genre de l'horreur qui expose intentionnellement des violations graphiques ou psychologiquement
+    perturbantes du corps humain.</p>
+</section>
+    
