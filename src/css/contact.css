@@ -1,19 +1,19 @@
 .questions {
     display: flex;
-    width: 263px;
+    width: 335px;
     height: 125px;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
     color: #ffffff;
-    text-align: center;
+    
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 150%;
-    margin-top: -100px;
-    margin-left: 50px;
+    margin-top: 0px;
+    margin-left: 25px;
 }
 
 .formulaire {
@@ -47,7 +47,7 @@ label {
 
 input,
 textarea {
-    width: 93%;
+    width: 80%;
     padding: 10px;
     border: 3px solid #ffffff;
 
@@ -103,6 +103,7 @@ button {
     font-style: normal;
     font-weight: 500;
     line-height: 110%;
+    
 
 }
 
