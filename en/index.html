@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen:false}" :class="{noscroll:menuIsOpen,}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playing The Saw</title>
+
+    <link rel="icon" href="../public/icons/logo.ico">
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <link rel="stylesheet" href="../src/css/import.css" />
+    <link rel="stylesheet" href="../src/css/header.css" />
+    <link rel="stylesheet" href="../src/css/footer.css" />
+    <link rel="stylesheet" href="../src/css/variable.css" />
+    <link rel="stylesheet" href="../src/css/menu.css" />
+    <link rel="stylesheet" href="../src/css/btn.css" />
+    <link rel="stylesheet" href="../src/css/articles.css" />
+    <link rel="stylesheet" href="../src/css/transition.css" />
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.js" defer></script>
+</head>
+<header class="header header--home">
+
+
+
+
+    <div aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header_menuBtn menu_position">
+        <img src="../public/icons/Menu.svg" alt="">
+    </div>
+
+
+    <nav id="mainNav" x-show="menuIsOpen" class="menu back_menu container_transition">
+        <a class="" href="index.html">
+            <img class="logo_position logo_menu" src="../public/icons/logo.svg" alt="Logo Playing The Saw" />
+        </a>
+        <div aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"
+            class="container_transition position_croix_rouge">
+            <img src="../public/icons/Croix_rouge.svg" alt="">
+        </div>
+        <p class="title_menu position_titre">MENU</p>
+
+        <p class="elements_titre">ARTICLES</p>
+        <ul class="decalage_menu">
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="replique.html">An iconic reply</a>
+            </li>
+            <a class="fleche" href="replique.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="film.html">A film : Saw</a>
+            </li>
+            <a class="fleche" href="film.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="real.html">James Wan, a producer</a>
+            </li>
+            <a class="fleche" href="real.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="livre.html">A psychological book</a>
+            </li>
+            <a class="fleche" href="livre.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="musique.html">A music, by 21 Savage</a>
+            </li>
+            <a class="fleche" href="musique.html"><img src="../public/icons/arrow.svg" alt=""></a>
+
+
+        </ul>
+        <div class="espace2"></div>
+        <p class="elements_titre_2">MORE CONTENT</p>
+
+        <ul>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="frise.html">ASSOCIATED BOOKS</a>
+            </li>
+            <a class="fleche" href="frise.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="galerie.html">FILM GALERY</a>
+            </li>
+            <a class="fleche" href="galerie.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="apropos.html">ABOUT US</a>
+            </li>
+            <a class="fleche" href="apropos.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+
+        </ul>
+    </nav>
+
+
+
+    <a class="" href="index.html">
+        <img class="logo_position" src="../public/icons/logo.svg" alt="Logo Playing The Saw" />
+    </a>
+
+    <p class="title title_position">Playing The Saw</p>
+    <h1 class="titre_article">
+        Saw: The Psychological Horror That Haunts Our Nightmare
+    </h1>
+    <img class="position_scie" src="../public/img/scie.webp" alt="">
+    <img class="position_cover" src="../public/img/film.webp" alt="">
+
+
+</header>
+
+<body class="background">
+    <section class="section">
+
+        <h4 class="h4">
+            Since its first release in 2004, the film "Saw" has left an indelible mark on the world of horror cinema. Directed by
+            James Wan and written by Leigh Whannell, this film became the first installment in a legendary franchise, known for its
+            unique blend of visceral horror, raw violence, twisting puzzles and deep exploration of the human psyche .
+        </h4>
+    </section>
+
+    <h2 class="h2">UN CAUCHEMAR SANS FIN</h2>
+
+    <section class="section">
+
+        <h4 class="h4">
+            The horror aspect of “Saw” is a real tour de force. From the first minutes, spectators are plunged into an endless
+            nightmare. The torture scenes, cruelly imagined by the serial killer Jigsaw, defy the imagination and provoke a visceral
+            reaction in the audience.
+        </h4>
+    </section>
+    <figure class="figure_style container image_center">
+        <img class="" src="../public/img/scene3.webp" alt="">
+        <figcaption class="figcaption_style">Amanda, dans le piège à ours inversé</figcaption>
+    </figure>
+
+    <h2 class="h2">UN HUIT-CLOS OPPRESSANT</h2>
+    <section class="section">
+        <h4 class="h4">
+            L'ambiance du film est étouffante, et l'action se déroule principalement dans une salle de bain délabrée,
+            sombre et
+            crasseuse, où les victimes de Jigsaw se réveillent enchaînées et désorientées avec peu d'espoir de
+            s'échapper.
+        </h4>
+    </section>
+
+    <figure class="figure_style container image_center">
+        <img class="" src="../public/img/scene4.webp" alt="">
+        <figcaption class="figcaption_style">Adam & Lawrence Gordon, enfermés dans une salle de bain</figcaption>
+    </figure>
+
+    <h2 class="h2 intertitre_espace">UNE QUESTION DE VIE OU DE MORT</h2>
+    <section class="section">
+        <h4 class="h4">
+            Jigsaw, le cerveau derrière les pièges, ne tue pas ses victimes directement. Au lieu de cela, il les force à
+            prendre des
+            décisions terrifiantes pour leur propre survie montrant la capacité de l'être humain à faire des choix
+            désespérés
+            lorsque sa vie est en jeu.
+        </h4>
+    </section>
+
+    <figure class="figure_style container image_center">
+        <img class="" src="../public/img/scene5.webp" alt="">
+        <figcaption class="figcaption_style">Lawrence Gordon, avant d'être capturé par Jigsaw</figcaption>
+    </figure>
+
+    <section class="section">
+        <h4 class="h4">
+            Les flashbacks et les révélations sur le passé de Jigsaw ajoutent une dimension psychologique profonde au
+            film, incitant
+            les spectateurs à réfléchir à la nature du bien et du mal.
+        </h4>
+    </section>
+    <h2 class="h2-2">UNE MARQUE INDÉLIBILE DANS L’HISTOIRE DU CINÉMA</h2>
+
+    <section class="section">
+        <h4 class="h4">
+            "Saw" a réussi à captiver les amateurs d'horreur grâce à son mélange unique de violence brutale, d'ambiance
+            oppressante
+            et d'exploration des recoins les plus sombres de la psyché humaine. Le film a engendré une série de suites
+            qui ont
+            continué à explorer ces thèmes, tout en laissant une marque indélébile dans l'histoire du cinéma d'horreur.
+        </h4>
+    </section>
+    <figure class="figure_style container image_center">
+        <img class="" src="../public/img/scene6.webp" alt="">
+        <figcaption class="figcaption_style">Scène finale du film</figcaption>
+    </figure>
+    <section class="section intertitre_espace">
+        <h4 class="h4">
+            Pour ceux qui cherchent une expérience cinématographique qui les fera frissonner et réfléchir, "Saw" reste
+            un
+            incontournable. Mais attention, une fois que vous avez plongé dans l'univers de Jigsaw, il n'y a pas de
+            retour en
+            arrière.
+        </h4>
+        <a class="lire_article remonte decalage_gauche_2" href="real.html">
+            <img src="../public/icons/lire_article_real.svg" alt="">
+
+        </a>
+
+        <a class="lire_article remonte decalage_gauche" href="galerie.html">
+            <img src="../public/icons/film_associes.svg" alt="">
+
+        </a>
+    </section>
+
+
+    <footer class="fond_footer">
+        <div class="pad"></div>
+        <div class="absolute decale_langue">
+            <a href="../en/filmen.html">
+                <img class="changement_de_langue" src="../public/icons/FR.svg" alt=""></a>
+        </div>
+
+        <section class="decalage">
+            <a class="foot" href="galerie.html">
+                <h2 class="">Galerie</h2>
+            </a>
+
+            <a class="foot" href="contact.html">
+                <h2 class="">Contact</h2>
+            </a>
+
+            <a class="foot" href="autresprojets.html">
+                <h2 class="">Autres projets</h2>
+            </a>
+
+            <a class="foot" href="apropos.html">
+                <h2 class="">A propos</h2>
+            </a>
+
+        </section>
+        <br>
+        <div class="ligne_blanche"></div>
+        <br>
+
+        <section>
+
+            <h3 class="mailto">Alban Chatelet - Groupe C1</h3>
+            <h3 class="mailto">chateletalban20@gmail.com</h3>
+        </section>
+        <br>
+        <div class="ligne_blanche"></div>
+        <div>
+            <h4 class="mentions decalage">Ce site est un projet réalisé dans le cadre d’un exercice pédagogique au
+                département MMI
+                Montbéliard</h4>
+            </p>
+
+            <div class="mmi"><img src="../public/img/logo_mmi.webp" alt=""></div>
+            <br><br>
+            <p class="mentions decalage">&copy; PlayingTheSaw</p>
+        </div>
+        <br><br><br>
+    </footer>
+</body>
