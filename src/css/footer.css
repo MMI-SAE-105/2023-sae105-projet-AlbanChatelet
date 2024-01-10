@@ -11,7 +11,8 @@
     font-weight: normal;
     line-height: 110%;
     text-decoration: none;
-    
+    height:auto;
+    width:50px;
 }
 
 .decalage {
