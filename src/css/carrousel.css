@@ -36,7 +36,7 @@
     transform: translateY(-50%);
     width: 2rem;
     height: 2rem;
-    background: rgba(0, 0, 0, 0.5);
+    background: hwb(0 0% 0% / 0.5);
     border-radius: 50%;
     border: none;
     display: grid;
@@ -69,14 +69,32 @@
 }
 
 .text_carrousel {
+    width:auto;
     text-align:center;
     font-family:Roboto;
     color:#fff;
     font-size:30px
+
+    
 }
 
 .decoration-carrousel {
     border: 2px solid #ffffff;
     padding: 10px;
     border-radius: 8px;
+}
+
+.cadre_texte {
+    
+    border: 2px solid #fff;
+    display: inline-block;
+    padding: 5px;
+        
+    border-radius: 10px;
+        
+   
+}
+
+.centre_cadre {
+    text-align:center;
 }
