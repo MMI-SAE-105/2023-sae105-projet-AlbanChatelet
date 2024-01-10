@@ -56,15 +56,26 @@
     width: 500px;
     max-width: 100%;
     border-radius: 15px;
+    border: 2px solid #ffffff;
+    padding: 5px;
+    border-radius: 8px;
 }
 
 
 
 .premier_carrousel {
-    margin-left: 20px;
+    margin-left: 10px;
+    
 }
 
 .text_carrousel {
     text-align:center;
     font-family:Roboto;
+    color:#fff
+}
+
+.decoration-carrousel {
+    border: 2px solid #ffffff;
+    padding: 10px;
+    border-radius: 8px;
 }
