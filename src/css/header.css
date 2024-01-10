@@ -33,9 +33,16 @@
     margin-left: -240px;
 }
 
+.fixe {
+    position: fixed;
+    z-index: 10;
+    display:flex;
+}
+
 .header {
     display: flex;
     
+
 
 }
 
