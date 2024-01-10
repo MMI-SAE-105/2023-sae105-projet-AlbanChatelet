@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="../src/css/btn.css" />
     <link rel="stylesheet" href="../src/css/articles.css" />
     <link rel="stylesheet" href="../src/css/transition.css" />
+    <link rel="stylesheet" href="../src/css/carrousel.css" />
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.js" defer></script>
 </head>
 <header class="header header--home">
@@ -120,3 +121,69 @@
     <div class="espace_2"></div>
 
     <div class="container"><h4 class="h4">D’autres personnes on aussi fait des projet concernant la thématique “Réplique !”</h4></div>
+
+    <div class="carrousel" x-data="{hrefCourant: '#ecran-1'}">
+        <button class="carrousel_btn carrousel_btn-avant" aria-label="slideprécedant"
+            @click="$refs.parent.scrollLeft-=$refs.parent.clientWidth">
+            &lt;
+        </button>
+        <button class="carrousel_btn carrousel_btn-apres" aria-label="slidesuivant"
+            @click="$refs.parent.scrollLeft+=$refs.parent.clientWidth">
+            >
+        </button>
+        <div class="carrousel_parent-ecrans" x-ref="parent"
+            @scroll.debounce.250ms.passive="hrefCourant = '#' + [...$refs.parent.children].find(e=>e.getBoundingClientRect().x>=0).id">
+            <div id="ecran-1" class="carrousel_ecran">
+                <figure>
+                    <img class="carrousel_ecran_img" src="../public/img/Marina.svg" alt="">
+                    <figcaption>
+                        <p class="legends">Sur le côté</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div id="ecran-2" class="carrousel_ecran">
+                <figure>
+                    <img class="carrousel_ecran_img" src="../public/img/Ethan.svg" alt="">
+                    <figcaption>
+                        <p class="legends">De dérrière</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div id="ecran-3" class="carrousel_ecran">
+                <figure>
+                    <img class="carrousel_ecran_img" src="../public/img/Remi.svg" alt="">
+                    <figcaption>
+                        <p class="legends">De l'intérieur</p>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div id="ecran-3" class="carrousel_ecran">
+                <figure>
+                    <img class="carrousel_ecran_img" src="../public/img/Lucas.svg" alt="">
+                    <figcaption>
+                        <p class="legends">De l'intérieur</p>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div id="ecran-3" class="carrousel_ecran">
+                <figure>
+                    <img class="carrousel_ecran_img" src="../public/img/Theo.svg" alt="">
+                    <figcaption>
+                        <p class="legends">De l'intérieur</p>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div id="ecran-3" class="carrousel_ecran">
+                <figure>
+                    <img class="carrousel_ecran_img" src="../public/img/Antoine.svg" alt="">
+                    <figcaption>
+                        <p class="legends">De l'intérieur</p>
+                    </figcaption>
+                </figure>
+            </div>
+    
+        </div>
+    </div>
