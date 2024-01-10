@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen:false}" :class="{noscroll:menuIsOpen,}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playing The Saw</title>
+
+    <link rel="icon" href="../public/icons/logo.ico">
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <link rel="stylesheet" href="../src/css/import.css" />
+    <link rel="stylesheet" href="../src/css/header.css" />
+    <link rel="stylesheet" href="../src/css/footer.css" />
+    <link rel="stylesheet" href="../src/css/variable.css" />
+    <link rel="stylesheet" href="../src/css/menu.css" />
+    <link rel="stylesheet" href="../src/css/btn.css" />
+    <link rel="stylesheet" href="../src/css/articles.css" />
+    <link rel="stylesheet" href="../src/css/contact.css" />
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.js" defer></script>
+</head>
+<header class="header header--home">
+
+
+
+
+    <div aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header_menuBtn menu_position">
+        <img src="../public/icons/Menu.svg" alt="">
+    </div>
+
+
+    <nav id="mainNav" x-show="menuIsOpen" class="menu back_menu container_transition">
+        <a class="" href="index.html">
+            <img class="logo_position logo_menu" src="../public/icons/logo.svg" alt="Logo Playing The Saw" />
+        </a>
+        <div aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"
+            class="container_transition position_croix_rouge">
+            <img src="../public/icons/Croix_rouge.svg" alt="">
+        </div>
+        <p class="title_menu position_titre">MENU</p>
+
+        <p class="elements_titre">ARTICLES</p>
+        <ul class="decalage_menu">
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="reply.html">An iconic reply</a>
+            </li>
+            <a class="fleche" href="reply.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="filmen.html">A film : Saw</a>
+            </li>
+            <a class="fleche" href="filmen.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="producer.html">James Wan, a producer</a>
+            </li>
+            <a class="fleche" href="producer.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="book.html">A psychological book</a>
+            </li>
+            <a class="fleche" href="book.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="music.html">A music, by 21 Savage</a>
+            </li>
+            <a class="fleche" href="music.html"><img src="../public/icons/arrow.svg" alt=""></a>
+
+
+        </ul>
+        <div class="espace2"></div>
+        <p class="elements_titre_2">MORE CONTENT</p>
+
+        <ul>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="friseen.html">ASSOCIATED BOOKS</a>
+            </li>
+            <a class="fleche" href="friseen.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="galery.html">FILM GALERY</a>
+            </li>
+            <a class="fleche" href="galery.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+            <li class="ligne_menu">
+                <div class="espace"></div>
+                <a class="elements" href="aboutus.html">ABOUT US</a>
+            </li>
+            <a class="fleche" href="aboutus.html"><img src="../public/icons/arrow.svg" alt=""></a>
+            <div class="espace"></div>
+
+
+        </ul>
+    </nav>
+
+
+
+    <a class="" href="index.html">
+        <img class="logo_position" src="../public/icons/logo.svg" alt="Logo Playing The Saw" />
+    </a>
+    
+    <p class="title title_position">Playing The Saw</p>
+    <h1 class="titre_frise">
+        Contact
+    </h1>
+
+
+</header>
+
+<body class="background">
+    <div class="espace_2"></div>
+
+    <h3 class="questions">If you have any questions about the site or if there's an error, don't hesitate to send us your feedback!</h3>
+
+    <main class="container">
+
+        <form action="#">
+            <div>
+                <label class="typo" for="name">First name</label>
+                <input class="" type="text" name="firstname" id="firstname" placeholder="Entrer votre prénom">
+            </div>
+            <br>
+            <div>
+                <label class="typo" for="name">ㅤNameㅤ</label>
+                <input class="" type="text" name="name" id="name" placeholder="Entrer votre nom">
+            </div>
+            <br>
+            <div>
+                <label class="typo" for="email">ㅤEmailㅤ</label>
+                <input class="" type="email" name="email" id="email" placeholder="Entrer votre e-mail">
+            </div>
+            <br>
+            <div>
+                <label class="typo" for="message">Message</label>
+                <textarea name="message" id="message" placeholder="Entrer votre message"></textarea>
+            </div>
+            <br>
+            <button class="typo rectangle_envoi" type="submit">
+                <p class="decale_envoyer">Send</p>
+            </button>
+        </form>
+    </main>
+    <div class="espace2"></div>
+
+<footer class="fond_footer">
+    <div class="pad"></div>
+    <div class="absolute decale_langue">
+        <a href="../fr/contact.html">
+            <img class="changement_de_langue" src="../public/icons/ENG.svg" alt=""></a>
+    </div>
+
+    <section class="decalage">
+        <a class="foot" href="galery.html">
+            <h2 class="">Galery</h2>
+        </a>
+
+        <a class="foot" href="contacten.html">
+            <h2 class="">Contact</h2>
+        </a>
+
+        <a class="foot" href="otherprojects.html">
+            <h2 class="">Other projects</h2>
+        </a>
+
+        <a class="foot" href="aboutus.html">
+            <h2 class="">About us</h2>
+        </a>
+
+    </section>
+    <br>
+    <div class="ligne_blanche"></div>
+    <br>
+
+    <section>
+
+        <h3 class="mailto">Alban Chatelet - Group C1</h3>
+        <h3 class="mailto">chateletalban20@gmail.com</h3>
+    </section>
+    <br>
+    <div class="ligne_blanche"></div>
+    <div>
+        <h4 class="mentions decalage">This site is a project carried out as part of an educational exercise at
+            MMI Montbéliard department</h4>
+        </p>
+
+        <div class="mmi"><img src="../public/img/logo_mmi.webp" alt=""></div>
+        <br><br>
+        <p class="mentions decalage">&copy; PlayingTheSaw</p>
+    </div>
+    <br><br><br>
+</footer>
+</body>
