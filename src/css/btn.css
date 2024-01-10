@@ -31,3 +31,13 @@
 .decalage_gauche_3 {
     margin-left: 55px
 }
+
+.changement_de_langue {
+    height: 40px;
+    width:auto;
+}
+
+.decale_langue {
+    margin-left: 280px;
+    margin-top: 5px;
+}

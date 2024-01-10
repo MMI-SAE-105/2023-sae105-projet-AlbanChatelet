@@ -358,6 +358,10 @@ body {
 
 }
 
+.absolute {
+    position:absolute;
+}
+
 .espace_galerie {
     padding-top: 30px;
 }
