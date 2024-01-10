@@ -4,7 +4,7 @@
     overflow-x: scroll;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     
     
 }
@@ -32,7 +32,7 @@
 
 .carrousel_btn {
     position: absolute;
-    top: 35%;
+    top: 32.5%;
     transform: translateY(-50%);
     width: 2rem;
     height: 2rem;
@@ -49,14 +49,14 @@
 }
 
 .carrousel_btn-apres {
-    right: 10px;
+    right: 15px;
 }
 
 .carrousel_ecran_img {
     width: 500px;
     max-width: 100%;
     border-radius: 15px;
-    border: 2px solid #ffffff;
+    border: 2px solid #FD5B5B;
     padding: 5px;
     border-radius: 8px;
 }
@@ -71,7 +71,8 @@
 .text_carrousel {
     text-align:center;
     font-family:Roboto;
-    color:#fff
+    color:#fff;
+    font-size:30px
 }
 
 .decoration-carrousel {
