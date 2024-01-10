@@ -358,6 +358,11 @@ body {
 
 }
 
+strong {
+    font-weight:bold;
+    color:#ffd2d2
+}
+
 .absolute {
     position:absolute;
 }
