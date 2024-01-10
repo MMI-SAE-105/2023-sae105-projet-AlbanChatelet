@@ -131,9 +131,9 @@
             @click="$refs.parent.scrollLeft+=$refs.parent.clientWidth">
             >
         </button>
-        <div class="carrousel_parent-ecrans" x-ref="parent"
+        <div class="carrousel_parent-ecrans premier_carrousel" x-ref="parent"
             @scroll.debounce.250ms.passive="hrefCourant = '#' + [...$refs.parent.children].find(e=>e.getBoundingClientRect().x>=0).id">
-            <div id="ecran-1" class="carrousel_ecran">
+            <div id="ecran-1" class="carrousel_ecran container">
                 <figure>
                     <img class="carrousel_ecran_img" src="../public/img/Marina.svg" alt="">
                     <figcaption>

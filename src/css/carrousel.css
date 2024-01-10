@@ -5,17 +5,17 @@
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
     margin-bottom: 20px;
-    margin-left:20px ;
+    
     
 }
 
 .carrousel_ecran {
-    width: 70%;
+    width: 95%;
     flex: none;
     scroll-snap-align: start;
     display: grid;
     place-items: center;
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .carrousel_ecran figure {
@@ -58,6 +58,9 @@
     border-radius: 15px;
 }
 
-.dernier_carrousel {
-    margin-right: 10px;
+
+
+.premier_carrousel {
+    margin-left: 20px;
 }
+
